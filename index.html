@@ -1,16 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset=""UTF=8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator</title>
+    <link rel="shortcut icon" href="/images/JokeAPILogo.png">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <p>Feeling Bored?</p>
+        </div>
+    </header>
 
-        <title>Bored at work? Want a Laugh?</title>
-    </head>
+    <main class="buttoncontainer">
 
-    <body>
-        <header>
+        <p class="choose">Pick a category!</p>
+      <div class="wrapper" style="background-color: white">
+        <button onclick="cateBtn('Programming')" class="b-plus">
+          Programming
+        </button>
+        <button
+          onclick="cateBtn('Dark')"
+          class="b-plus"
+        >
+          Dark
+        </button>
+        <button
+          onclick="cateBtn('Misc')"
+          class="b-plus"
+        >
+          Misc
+        </button>
+        <button
+          onclick="cateBtn('Pun')"
+          class="b-plus"
+        >
+          Pun
+        </button>
+        <button
+          onclick="cateBtn('Christmas')"
+          class="b-plus"
+        >
+          Christmas
+        </button>
+        <button
+          onclick="cateBtn('Spooky')"
+          class="b-plus"
+        >
+          Spooky
+        </button>
+      </div>
 
-        </header>
-
-    </body>
+</body>
+<script src="main.js"></script>
 </html>
