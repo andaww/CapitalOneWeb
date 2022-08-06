@@ -10,8 +10,9 @@ let dataUrl = apiData.url;
 function cateBtn(category){
     dataUrl+=category;
     console.log(dataUrl);
-    fetch("https://v2.jokeapi.dev/joke/Programming")
+    fetch(dataUrl)
         .then((results) => results.json())
-        .then(console.log);
+        .then(console.log)
+    dataUrl=apiData.url;
 
 }
