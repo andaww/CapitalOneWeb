@@ -18,45 +18,58 @@
     <main class="buttoncontainer">
 
         <p class="choose">Pick a category!</p>
-      <div class="wrapper" style="background-color: white">
-        <button onclick="cateBtn('Programming')" class="b-plus">
-          Programming
+      <div class="wrapper" style="background-color: rgb(39, 35, 41)">
+        <button 
+            onclick="cateBtn('Programming')" 
+            class="btn"
+            style="background-color: rgb(37, 85, 37);"
+        >
+            Programming
         </button>
         <button
-          onclick="cateBtn('Dark')"
-          class="b-plus"
+            onclick="cateBtn('Dark')"
+            class="btn"
+            style="background-color: rgb(141, 0, 0);"
         >
           Dark
         </button>
         <button
-          onclick="cateBtn('Misc')"
-          class="b-plus"
+            onclick="cateBtn('Misc')"
+            class="btn"
+            style="background-color: rgb(18, 23, 117);"
         >
           Misc
         </button>
         <button
-          onclick="cateBtn('Pun')"
-          class="b-plus"
+            onclick="cateBtn('Pun')"
+            class="btn"
+            style="background-color: rgb(255, 170, 0);"
         >
           Pun
         </button>
         <button
           onclick="cateBtn('Christmas')"
-          class="b-plus"
+          class="btn"
+          style="background-color: cyan;"
         >
           Christmas
         </button>
         <button
           onclick="cateBtn('Spooky')"
-          class="b-plus"
+          class="btn"
+          style="background-color: rgb(68, 8, 68);"
         >
           Spooky
         </button>
+        <button
+          onclick="cateBtn('Any')"
+          class="btn"
+        >
+          Any
+        </button>
       </div>
 
-      <h1>Joke:</h1>
-
-      <ul id="Joke"></ul>
+      <ul id="Joke" class="jokeStyle"></ul>
 
 
 </body>
