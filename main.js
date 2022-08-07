@@ -1,5 +1,5 @@
 const input = document.querySelector(".input");
-
+let ul = document.getElementById('Joke');
 
 const apiData = {
     url: "https://v2.jokeapi.dev/joke/",
@@ -17,7 +17,12 @@ function cateBtn(category){
         .then((data)=>{
             console.log(data.joke);
             console.log(data.setup + " " + data.delivery);
-            document.createElement('h2').innerHTML= data.joke;
+            if(data.joke===undefined){
+                ul.innerHTML=(data.setup+ " " + data.delivery);
+            }
+            else{
+                ul.innerHTML=data.joke;
+            }
         })
     dataUrl=apiData.url;
 
