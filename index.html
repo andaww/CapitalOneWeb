@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joke Generator</title>
     <link rel="shortcut icon" href="/images/JokeAPILogo.png">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body style="background-color: rgb(39, 35, 41);">
     <header>
         <div class="title">
             <p>Feeling Bored?</p>
@@ -17,59 +17,63 @@
 
     <main class="buttoncontainer">
 
-        <p class="choose">Pick a category!</p>
-      <div class="wrapper" style="background-color: rgb(39, 35, 41)">
+        <p class="choose"><br>Pick a category!</p>
+        <div class="wrapper" >
         <button 
-            onclick="cateBtn('Programming')" 
+            onclick="cateBtn('Programming'); bgChange('Programming')" 
             class="btn"
             style="background-color: rgb(37, 85, 37);"
         >
             Programming
         </button>
         <button
-            onclick="cateBtn('Dark')"
+            onclick="cateBtn('Dark'); bgChange('Dark')"
             class="btn"
             style="background-color: rgb(141, 0, 0);"
         >
           Dark
         </button>
+
         <button
-            onclick="cateBtn('Misc')"
+            onclick="cateBtn('Misc'); bgChange('Misc')"
             class="btn"
             style="background-color: rgb(18, 23, 117);"
         >
           Misc
         </button>
         <button
-            onclick="cateBtn('Pun')"
+            onclick="cateBtn('Pun'); bgChange('Pun')"
             class="btn"
             style="background-color: rgb(255, 170, 0);"
         >
           Pun
         </button>
         <button
-          onclick="cateBtn('Christmas')"
+          onclick="cateBtn('Christmas'); bgChange('Christmas')"
           class="btn"
           style="background-color: cyan;"
         >
           Christmas
         </button>
         <button
-          onclick="cateBtn('Spooky')"
+          onclick="cateBtn('Spooky'); bgChange('Spooky')"
           class="btn"
           style="background-color: rgb(68, 8, 68);"
         >
           Spooky
         </button>
         <button
-          onclick="cateBtn('Any')"
+          onclick="cateBtn('Any'); bgChange('Any')"
           class="btn"
+          style="background-color:rgb(39, 35, 41)"
         >
           Any
         </button>
       </div>
 
       <ul id="Joke" class="jokeStyle"></ul>
+
+      <div id="Repeat" class="repeat"></div>
 
 
 </body>
