@@ -15,7 +15,6 @@ function cateBtn(category){
     dataUrl+="?blacklistFlags=nsfw,racist,sexist"
     console.log(dataUrl);
     if(category==='Programming'){
-        bg.background = "/images/JokeAPILogo";
     }
     fetch(dataUrl)
         .then((jokeData) => jokeData.json())
@@ -36,25 +35,25 @@ function cateBtn(category){
 
 function bgChange(theme){
     if(theme==='Christmas'){
-        bg.style.backgroundImage = "url(../images/christmasBg.png)";
+        bg.style.backgroundImage = "url(images/christmasBg.png)";
     }
     else if(theme==='Spooky'){
-        bg.style.backgroundImage = "url(../images/spookyBg.png)";
+        bg.style.backgroundImage = "url(images/spookyBg.png)";
     }
     else if(theme==='Programming'){
-        bg.style.backgroundImage = "url(../images/programmingBg.png";
+        bg.style.backgroundImage = "url(images/programmingBg.png";
     }
     else if(theme==='Dark'){
-        bg.style.backgroundImage = "url(../images/darkBg.png";
+        bg.style.backgroundImage = "url(images/darkBg.png";
     }
     else if(theme==='Misc'){
-        bg.style.backgroundImage = "url(../images/miscBg.png";
+        bg.style.backgroundImage = "url(images/miscBg.png";
     }
     else if(theme==='Pun'){
-        bg.style.backgroundImage = "url(../images/punBg.png";
+        bg.style.backgroundImage = "url(images/punBg.png";
     }
     else if(theme==='Any')
-    bg.style.backgroundImage = "url(../images/anyBg.png";
+    bg.style.backgroundImage = "url(images/anyBg.png";
     else{
         bg.style.backgroundImage = "none";
     }
