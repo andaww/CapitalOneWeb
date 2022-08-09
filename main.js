@@ -22,10 +22,10 @@ function cateBtn(category){
             console.log(data.joke);
             console.log(data.setup + " " + data.delivery);
             if(data.joke===undefined){
-                ul.innerHTML=(data.setup+"<br><br>" + data.delivery);
+                ul.innerHTML=(data.setup+"<br>" + data.delivery);
             }
             else{
-                ul.innerHTML=(data.joke);
+                ul.innerHTML=(data.joke + "<br><br>");
             }
             rep.innerHTML="Click again for another joke!";
         })

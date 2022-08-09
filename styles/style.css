@@ -58,7 +58,7 @@ a{
 }
 
 .repeat{
-    margin-top: 40px;
+    margin-top: 10px;
     font-size: 20px;
     color: yellow;
 }
@@ -70,5 +70,4 @@ a{
     block-size: 120px;
     width: 400px;
     margin: 0 auto;
-    ;
 }
