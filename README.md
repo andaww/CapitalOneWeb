@@ -5,7 +5,7 @@ Joke Generator
 Using the category buttons provided or by simply clicking the "Any" button, you will receive a joke for a quick laugh!
 If you do not feel satisfied with one, simply click any button again for another joke!
 
-Deployed Website: https://andaww.github.io/CapitalOneWeb/
+Deployed Website: https://andaww.github.io/jokeGenerator/
 
 # Solution
 
